@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY NEW YEAR 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fireworks-container"></div>
+    <canvas id="confetti-canvas"></canvas>
+
+    <div class="lantern-container">
+        <div class="lantern l1"></div>
+        <div class="lantern l2"></div>
+        <div class="lantern l3"></div>
+        <div class="lantern l4"></div>
+    </div>
+
+    <button id="music-btn" onclick="toggleMusic()">🎵</button>
+
+    <div class="main-card-glow">
+        <div class="card-content">
+            <header>
+                <img src="https://cdn-icons-png.flaticon.com/512/4251/4251668.png" alt="Gift" class="gift-icon left fa-bounce">
+                <h1>Chúc Mừng Năm Mới</h1>
+                <h2>2026 - Xuân Bính Ngọ</h2>
+                <img src="https://cdn-icons-png.flaticon.com/512/4251/4251668.png" alt="Gift" class="gift-icon right fa-bounce">
+            </header>
+
+            <section id="input-section">
+                <p class="label-txt">Nhập tên của xinh iu vào đây nhéee:</p>
+                <div class="input-wrapper">
+                    <input type="text" id="userName" placeholder="Tên của xinhh iuuu làa..." autocomplete="off">
+                </div>
+                <button class="btn-khai-xuan" onclick="openLuck()">🌟 NHẤP VÀO ĐÂY NHENNN! 🌟</button>
+            </section>
+
+            <section id="result-section" class="hidden">
+                <div class="lucky-card">
+                    <h3>🧧 Lì Xì Lời Chúc 🧧</h3>
+                    <p class="greeting-name" id="resName"></p>
+                    <div class="wish-box">
+                        <p id="resWish"></p>
+                    </div>
+                    
+                    <div class="lucky-numbers">
+                        <p>Con số thần tài của bạn:</p>
+                        <div class="num-badges">
+                            <span class="num" id="num1">??</span>
+                            <span class="num" id="num2">??</span>
+                        </div>
+                    </div>
+                </div>
+                 <button class="btn-reset" onclick="location.reload()">⚡ Rút quẻ khác ⚡</button>
+            </section>
+
+        </div>
+    </div>
+
+    <audio id="bgMusic" loop>
+        <source src="Nụ Cười Xuân (Đại Mèo Remix Ver 2).mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
