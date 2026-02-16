@@ -18,7 +18,7 @@ const wishesDB = {
     "default": "Kính chúc Ông bà, Cha mẹ, Anh chị em, Cô dì chú bác cùng toàn thể gia đình năm mới Bính Ngọ 2026 an khang, thịnh vượng, vạn sự như ý và tràn đầy hỷ sự. 🎉🧧"
 };
 
-const defaultWish = "Chúc bạn một năm mới Bính Ngọ 2026: Vạn sự như ý - Tỷ sự như mơ - Triệu điều bất ngờ! 🎉✨";
+const defaultWish = "Kính chúc Ông bà, Cha mẹ, Anh chị em, Cô dì chú bác cùng toàn thể gia đình năm mới Bính Ngọ 2026 an khang, thịnh vượng, vạn sự như ý và tràn đầy hỷ sự. 🎉🧧";
 
 const bgMusic = document.getElementById("bgMusic");
 if (bgMusic) bgMusic.volume = 0;
